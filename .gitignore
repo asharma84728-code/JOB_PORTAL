@@ -1,0 +1,10 @@
+@'
+.venv/
+env_jobportal/
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+staticfiles/
+.claude/
+'@ | Set-Content -Encoding utf8 .gitignore
